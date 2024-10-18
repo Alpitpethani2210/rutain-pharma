@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from './Button';
+
 export const dropDownOptions = [
     { label: 'Option1', value: 'Option1' },
     { label: 'Option2', value: 'Option2' },
@@ -15,18 +16,19 @@ export default function Header() {
                             <a href='#'>
                                 <img src='images/img_call.svg' alt='Call' className='h-[16px] w-[16px]' />
                             </a>
-                            <p size='headingxs' as='p' className='text-[14px] font-bold text-white'>
+                            <p size='headingxs'  className='text-[14px] font-bold text-white'>
                                 08045477087
                             </p>
                         </div>
                         <div className='flex flex-wrap gap-1'>
-                            <p size='textxs' as='p' className='text-[14px] font-normal text-gray-100'>
+                            <p size='textxs'  className='text-[14px] font-normal text-gray-100'>
                                 Trusted company that deals in
                             </p>
-                            <p size='headingxs' as='p' className='text-[14px] font-black text-teal-200'>
+                            <p size='headingxs'  className='text-[14px] font-black text-teal-200'>
                                 quality-made products
                             </p>
                         </div>
+                        <p className='text-white'>Language</p>
                         {/* <SelectBox
                             shape='square'
                             indicator={
@@ -52,14 +54,14 @@ export default function Header() {
                             <div className='relative ml-[-2px] flex flex-1 flex-col items-center'>
                                 <span
                                     size='textxl'
-                                    as='p'
+                                    
                                     className='font-jacquesfrancois text-[20px] font-normal uppercase tracking-[6.00px] text-teal-400'
                                 >
                                     RutAin
                                 </span>
                                 <span
                                     size='textxs'
-                                    as='p'
+                                    
                                     className='font-jacquesfrancois text-[8px] font-normal uppercase tracking-[4.80px] text-teal-300'
                                 >
                                     PharmaCHEM
@@ -68,7 +70,7 @@ export default function Header() {
                         </div>
                         <span
                             size='texts'
-                            as='p'
+                            
                             className='self-center font-judson text-[10px] font-normal uppercase tracking-[4.00px] text-gray-500'
                         >
                             Birth for Quality
@@ -77,36 +79,37 @@ export default function Header() {
                     <div className='flex gap-[18px] sm: flex-col items-center'>
                         <ul className='flex flex-wrap gap-[18px] items-center'>
                             <li>
-                                <a href='#'>
-                                    <span as='p' className='font-poppins text-[16px] font-medium text-gray-900'>
+                                    {/* <Link to={'/home'}>Home</Link> */}
+                                <a href='/'>
+                                    <span  className='font-poppins text-[16px] font-medium text-gray-900'>
                                         Home
                                     </span>
                                 </a>
                             </li>
                             <li>
-                                <a href='#'>
-                                    <span as='p' className='font-poppins text-[16px] font-medium text-gray-900'>
+                                <a href='/company-profile'>
+                                    <span  className='font-poppins text-[16px] font-medium text-gray-900'>
                                         Company Profile
                                     </span>
                                 </a>
                             </li>
                             <li>
-                                <a href='#'>
-                                    <span as='p' className='font-poppins text-[16px] font-medium text-gray-900'>
+                                <a href='/product'>
+                                    <span  className='font-poppins text-[16px] font-medium text-gray-900'>
                                         Our Products
                                     </span>
                                 </a>
                             </li>
                             <li>
                                 <a href='#'>
-                                    <span as='p' className='font-poppins text-[16px] font-medium text-gray-900'>
+                                    <span  className='font-poppins text-[16px] font-medium text-gray-900'>
                                         Our Blogs
                                     </span>
                                 </a>
                             </li>
                             <li>
                                 <a href='#'>
-                                    <span as='p' className='font-poppins text-[16px] font-medium text-gray-900'>
+                                    <span  className='font-poppins text-[16px] font-medium text-gray-900'>
                                         Contact Us
                                     </span>
                                 </a>

@@ -214,19 +214,29 @@ export const Home = () => {
                     </div>
                 </div>
             </div >
-            <div className="">
-                <div className="mx-auto w-fit mt-20 mb-10">
-                    <h1 className="relative text-[48px] font-black font-poppins text-transparent bg-clip-text  bg-gradient-to-r from-[#175856] to-[#32BEBA]">Our Products
-                        <img src="images/img_three_hexagons.svg" alt="rutain-pharma" className="absolute top-[5px] right-[-20px]" />
+            <div className="relative">
+                <div className="mx-auto w-fit mt-20 mb-10 relative z-[20]">
+                    <h1 className="relative text-[48px] font-black font-poppins text-transparent bg-clip-text bg-gradient-to-r from-[#175856] to-[#32BEBA]">
+                        Our Products
+                        <img
+                            src="images/img_three_hexagons.svg"
+                            alt="rutain-pharma"
+                            className="absolute top-[5px] right-[-20px]"
+                        />
                     </h1>
                 </div>
-                        {/* <img src="images/bgLeaf3.png" alt="rutain-pharma" className="absolute top-[-75px] z-4 right-0" /> */}
-                <div className="flex justify-between px-10 z-[10]">
-                    <img src="images/product1.png" alt="rutain-pharma" className="" />
-                    <img src="images/product2.png" alt="rutain-pharma" className="" />
-                    <img src="images/product3.png" alt="rutain-pharma" className="" />
+                <img
+                    src="images/bgLeaf3.png"
+                    alt="rutain-pharma"
+                    className="absolute top-[-75px] right-0 z-[5]"
+                />
+                <div className="relative flex justify-between  w-[90%] mx-auto rounded-full bg-white z-[10]">
+                    <img src="images/product1.png" alt="rutain-pharma" />
+                    <img src="images/product2.png" alt="rutain-pharma" />
+                    <img src="images/product3.png" alt="rutain-pharma" />
                 </div>
             </div>
+
             <div>
                 <div className="mx-auto w-fit mt-20 mb-10">
                     <h1 className="relative text-[48px] font-black font-poppins text-transparent bg-clip-text  bg-gradient-to-r from-[#175856] to-[#32BEBA]">Why choose Us
@@ -349,17 +359,17 @@ export const Home = () => {
             </div>
 
             <div
-    className="flex justify-between p-2 shadow-inner-dark-white my-10"
-    // style={{
-    //     boxShadow: 'inset 0 0 30px rgba(255, 255, 255, 0.8)', // Full dark white inner shadow
-    // }}
->
-    <img src="images/footer1.png" alt="rutain-pharma" className="" />
-    <img src="images/footer2.png" alt="rutain-pharma" className="" />
-    <img src="images/footer3.png" alt="rutain-pharma" className="" />
-    <img src="images/footer4.png" alt="rutain-pharma" className="" />
-    <img src="images/footer5.png" alt="rutain-pharma" className="" />
-</div>
+                className="flex justify-between p-2 shadow-inner-dark-white my-10"
+            // style={{
+            //     boxShadow: 'inset 0 0 30px rgba(255, 255, 255, 0.8)', // Full dark white inner shadow
+            // }}
+            >
+                <img src="images/footer1.png" alt="rutain-pharma" className="" />
+                <img src="images/footer2.png" alt="rutain-pharma" className="" />
+                <img src="images/footer3.png" alt="rutain-pharma" className="" />
+                <img src="images/footer4.png" alt="rutain-pharma" className="" />
+                <img src="images/footer5.png" alt="rutain-pharma" className="" />
+            </div>
 
         </>
     )
