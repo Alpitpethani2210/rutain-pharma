@@ -1,4 +1,6 @@
 import { Button } from "../Component/Button"
+import ProductList from "../Component/ProductList"
+import { productData } from "../jsondata"
 
 const Product = () => {
     return (
@@ -34,7 +36,9 @@ const Product = () => {
                     </div>
                 </div>
             </div>
-
+            <div>
+                <ProductList/>
+            </div>
         </div>
     )
 }

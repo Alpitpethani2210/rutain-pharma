@@ -13,7 +13,7 @@ export default function Header() {
                 <div className='container-xs mt-1 flex justify-center md:px-5 py-1'>
                     <div className='flex w-full items-center justify-between gap-5 '>
                         <div className='flex  items-center gap-4'>
-                            <a href='#'>
+                            <a href=''>
                                 <img src='images/img_call.svg' alt='Call' className='h-[16px] w-[16px]' />
                             </a>
                             <p size='headingxs'  className='text-[14px] font-bold text-white'>
@@ -101,14 +101,14 @@ export default function Header() {
                                 </a>
                             </li>
                             <li>
-                                <a href='#'>
+                                <a href='/blogs'>
                                     <span  className='font-poppins text-[16px] font-medium text-gray-900'>
                                         Our Blogs
                                     </span>
                                 </a>
                             </li>
                             <li>
-                                <a href='#'>
+                                <a href='/blogs/blog-details'>
                                     <span  className='font-poppins text-[16px] font-medium text-gray-900'>
                                         Contact Us
                                     </span>

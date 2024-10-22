@@ -60,22 +60,26 @@ const CompanyProfile = () => {
                     <div className="h-[70vh] w-[80%] mx-auto flex gap-3 rounded-xl">
                         <div className="h-full w-[12%] relative rounded-[50px]">   
                             <img src="images/slide1.jpeg" alt="rutain pharma" className=" h-[100%] w-[100%] object-cover rounded-[50px]"/>
-                            <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div>
+                            {/* <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div> */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/100 to-transparent opacity-90 rounded-[50px]"></div>
                             <p className="absolute text-[32px] bottom-[30%] right-[-50%] w-[200%] font-bold text-transparent bg-clip-text  bg-gradient-to-r from-[#A1EEE1] to-[#188983] -rotate-90">Our Commitment</p>
                         </div>
                         <div className="h-full w-[12%] relative rounded-[50px]">   
                             <img src="images/slide2.jpeg" alt="rutain pharma" className=" h-[100%] w-[100%] object-cover rounded-[50px]"/>
-                            <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div>
+                            {/* <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div> */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/100 to-transparent opacity-90 rounded-[50px]"></div>
                             <p className="absolute text-[32px] bottom-[30%] right-[-50%] w-[200%] font-bold text-transparent bg-clip-text  bg-gradient-to-r from-[#A1EEE1] to-[#188983] -rotate-90">Our Experties</p>
                         </div>
                         <div className="h-full w-[12%] relative rounded-[50px]">   
                             <img src="images/slide3.jpeg" alt="rutain pharma" className=" h-[100%] w-[100%] object-cover rounded-[50px]"/>
-                            <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div>
+                            {/* <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div> */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/100 to-transparent opacity-90 rounded-[50px]"></div>
                             <p className="absolute text-[32px] bottom-[37%] right-[-70%] w-[250%] font-bold text-transparent bg-clip-text  bg-gradient-to-r from-[#A1EEE1] to-[#188983] -rotate-90">Inovation and Research</p>
                         </div>
                         <div className="h-full w-[40%] relative rounded-[50px]">   
                             <img src="images/slide4.jpeg" alt="rutain pharma" className=" h-[100%] w-[100%] object-cover rounded-[50px]"/>
-                            <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div>
+                            {/* <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div> */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/100 to-transparent opacity-90 rounded-[50px]"></div>
                             <div className="w-[90%] mx-auto absolute bottom-[10%] left-[10%]">
                                 <p className="text-[24px] mb-3 font-bold text-transparent bg-clip-text  bg-gradient-to-r from-[#A1EEE1] to-[#188983]">Quality Assurance</p>
                                 <p className=" font-bold text-transparent bg-clip-text  bg-gradient-to-r from-[#A1EEE1] to-[#188983]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum sem at felis tincidunt, ac auctor tortor lacinia. Phasellus sit amet neque vitae orci dictum varius</p>
@@ -83,12 +87,14 @@ const CompanyProfile = () => {
                         </div>
                         <div className="h-full w-[12%] relative rounded-[50px]">   
                             <img src="images/slide5.jpeg" alt="rutain pharma" className=" h-[100%] w-[100%] object-cover rounded-[50px]"/>
-                            <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div>
+                            {/* <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div> */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/100 to-transparent opacity-90 rounded-[50px]"></div>
                             <p className="absolute text-[32px] bottom-[40%] right-[-75%] w-[270%] font-bold text-transparent bg-clip-text  bg-gradient-to-r from-[#A1EEE1] to-[#188983] -rotate-90">Client - centirc approach</p>
                         </div>
                         <div className="h-full w-[12%] relative rounded-[50px]">   
                             <img src="images/slide6.jpeg" alt="rutain pharma" className=" h-[100%] w-[100%] object-cover rounded-[50px]"/>
-                            <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div>
+                            {/* <div className="absolute inset-0 bg-black opacity-50 rounded-[50px]"></div> */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/100 to-transparent opacity-90 rounded-[50px]"></div>
                             <p className="absolute text-[32px] bottom-[30%] right-[-50%] w-[200%] font-bold text-transparent bg-clip-text  bg-gradient-to-r from-[#A1EEE1] to-[#188983] -rotate-90">Sustainability</p>
                         </div>
                     </div>
